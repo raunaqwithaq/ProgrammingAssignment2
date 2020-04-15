@@ -8,7 +8,7 @@ a<-NULL
 	}
 	get<-function() x
 	setinverse<-function(inverse) a<<-inverse
-	getinverse<-function() m
+	getinverse<-function() a
 	list(set=set,get=get,setinverse=setinverse,getinverse=getinverse)
 }
 
